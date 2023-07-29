@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@import url(App.css);
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply py-2 px-4 bg-navBgColor text-white font-IRANSansWeb font-semibold rounded-lg shadow-md hover:bg-navBgColor focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+    }
+
+    .btn-secondary {
+        @apply py-2 px-4 bg-transparent text-navBgColor border-2 border-navBgColor duration-500 font-IRANSansWeb font-semibold rounded-lg shadow-md hover: bg-navBgColor hover:text-white focus:outline-none focus:ring-2 focus:ring-navBgColor focus:ring-opacity-75;
+    }
+}
+
+@font-face {
+    font-family: "ficon";
+    src: url("../../../../public/assets/fonts/icon/ficon.woff?") format("woff"),
+        url("../../../../public/assets/fonts/icon/ficon.woff?#ficon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*="icon-"]:before {
+    font-family: "ficon";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-category4:before {
+    content: "\e817";
+}
+
+.icon-personalcard:before {
+    content: "\f0e2";
+}
+
+.icon-truck3:before {
+    content: "\eaa5";
+}
+
+.icon-add-square:before {
+    content: "\ee7f";
+}
+
+.icon-truck-tick4:before {
+    content: "\eaa8";
+}
+
+.icon-truck-fast3:before {
+    content: "\eaa6";
+}
+
+.icon-colorfilter4:before {
+    content: "\e842";
+}
+
+.icon-logout4:before {
+    content: "\e946";
+}
+
+.icon-profile-2user4:before {
+    content: "\e9d8";
+}
+
+.icon-people4:before {
+    content: "\e9c8";
+}
+
+.icon-profile-add4:before {
+    content: "\e9d9";
+}
+
+.icon-user4:before {
+    content: "\eaae";
+}
+
+.icon-user-edit4:before {
+    content: "\eab1";
+}
+
+.icon-sun-14:before {
+    content: "\ea79";
+}
+
+.icon-sun-1:before {
+    content: "\f0aa";
+}

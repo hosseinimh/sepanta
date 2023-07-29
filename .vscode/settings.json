@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 14,
+  "screencastMode.fontSize": 45,
+  "terminal.integrated.env.windows": {},
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1E2E48",
+    "titleBar.activeBackground": "#2A4064",
+    "titleBar.activeForeground": "#F9FAFC"
+  }
+}

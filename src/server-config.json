@@ -1,0 +1,11 @@
+{
+  "relativePublicPath": "./../public",
+  "baseUrl": "http://127.0.0.1:8000",
+  "environment": "local",
+
+  "*relativePublicPath": "./../public_html",
+  "*baseUrl": "https://toptradersfunding.com",
+  "*environment": "production"
+}
+
+
